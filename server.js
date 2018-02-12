@@ -102,7 +102,7 @@ function handleReceivedData(socket, dataType, data) {
 			generateFloor(data, socket);
 			break;
 		case "deactiveCreate":
-			sendDeactiveFloor(data, socket);
+			//sendDeactiveFloor(data, socket);
 			break;
 		case "restartGame":
 			restartGame(data);
